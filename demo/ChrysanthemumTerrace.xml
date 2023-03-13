@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lnd:musical_score xmlns:lnd="https://github.com/Louis-Nicolas-Davout/MusicBoxTapeGenerator"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="https://github.com/Louis-Nicolas-Davout/MusicBoxTapeGenerator music.xsd"
+                   musical_tone="C4" bar_duration="4.0">
+    <!--line 01-->
+    <lnd:musical_bar description="1">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="0" duration="3"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="2">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="6" duration="1"/>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="3^" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="3">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2^" duration="0.5"/>
+            <lnd:musical_note pitch="1^" duration="1"/>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="6." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="0" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="4">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="0" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="6." duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="6." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="2.." duration="0.5"/>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="#4." duration="0.5"/>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <!--line 02-->
+    <lnd:musical_bar description="5">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2" duration="3"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="7." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="6">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="6" duration="1"/>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="3^" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="7">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2^" duration="0.5"/>
+            <lnd:musical_note pitch="1^" duration="0.5"/>
+            <lnd:musical_note pitch="0" duration="0.5"/>
+            <lnd:musical_note pitch="2^" duration="0.5"/>
+            <lnd:musical_note pitch="1^" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="6." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="#5." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="8">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="5" duration="1"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="7" duration="0.5"/>
+            <lnd:musical_note pitch="1^" duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <!--line 03-->
+    <lnd:musical_bar description="9">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="2"/>
+            <lnd:musical_note pitch="2" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="7." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="10">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1" duration="4"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1.." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="11">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="1"/>
+            <lnd:musical_note pitch="0" duration="1"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="7.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="12">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <!--line 04-->
+    <lnd:musical_bar description="13">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1" duration="1"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="1"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="4." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="14">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2" duration="1"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="#4.." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="#4." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="15">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1.5"/>
+            <lnd:musical_note pitch="5" duration="0.25"/>
+            <lnd:musical_note pitch="3" duration="0.25"/>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="1.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="7.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="16">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="1.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <!--line 05-->
+    <lnd:musical_bar description="17">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="1"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="4." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="18">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2" duration="1"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="#4.." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="#4." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="19">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="7.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="20">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <!--line 06-->
+    <lnd:musical_bar description="21">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1" duration="1"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="1"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="4." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="22">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2" duration="1"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="#4.." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="#4." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="23">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1.5"/>
+            <lnd:musical_note pitch="5" duration="0.25"/>
+            <lnd:musical_note pitch="3" duration="0.25"/>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="1.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="7.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="24">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <!--line 07-->
+    <lnd:musical_bar description="25">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="1"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="4." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="26">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="2.5"/>
+            <lnd:musical_note pitch="0" duration="1"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1.." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="27">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="0" duration="3"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1.." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="28">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="6" duration="1"/>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="3^" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <!--line 08-->
+    <lnd:musical_bar description="29">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2^" duration="0.5"/>
+            <lnd:musical_note pitch="1^" duration="0.5"/>
+            <lnd:musical_note pitch="0" duration="0.5"/>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="6." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="0" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="30">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="1"/>
+            <lnd:musical_note pitch="6." duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="6." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="31">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2" duration="1"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="1"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="32">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="1"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="6" duration="1"/>
+            <lnd:musical_note pitch="6" duration="0.5"/>
+            <lnd:musical_note pitch="3^" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <!--line 09-->
+    <lnd:musical_bar description="33">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="2^" duration="0.5"/>
+            <lnd:musical_note pitch="1^" duration="0.5"/>
+            <lnd:musical_note pitch="0" duration="0.5"/>
+            <lnd:musical_note pitch="2^" duration="0.5"/>
+            <lnd:musical_note pitch="1^" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="6." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="4.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="#5." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="34">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="5" duration="1"/>
+            <lnd:musical_note pitch="5" duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="7" duration="0.5"/>
+            <lnd:musical_note pitch="1^" duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="2" duration="0.5"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="6.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="1" duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="35">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="3" duration="2"/>
+            <lnd:musical_note pitch="2" duration="2"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="3" duration="0.5"/>
+            <lnd:musical_note pitch="5." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+            <lnd:musical_note pitch="7." duration="0.5"/>
+            <lnd:musical_note pitch="2." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+    <lnd:musical_bar description="36">
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1" duration="4"/>
+        </lnd:musical_part>
+        <lnd:musical_part>
+            <lnd:musical_note pitch="1.." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="3." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+            <lnd:musical_note pitch="1." duration="0.5"/>
+            <lnd:musical_note pitch="5.." duration="0.5"/>
+        </lnd:musical_part>
+    </lnd:musical_bar>
+</lnd:musical_score>

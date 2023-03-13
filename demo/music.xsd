@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="https://github.com/Louis-Nicolas-Davout/MusicBoxTapeGenerator"
+        xmlns="https://github.com/Louis-Nicolas-Davout/MusicBoxTapeGenerator"
+        elementFormDefault="qualified">
+    <!--简易类型的定义-->
+    <xs:simpleType name="musical_pitch_type">
+        <xs:restriction base="xs:string">
+            <!--'.'代表低音,'^'代表高音-->
+            <xs:enumeration value="0"/>
+
+            <xs:enumeration value="1.."/>
+            <xs:enumeration value="#1.."/>
+            <xs:enumeration value="2.."/>
+            <xs:enumeration value="#2.."/>
+            <xs:enumeration value="3.."/>
+            <xs:enumeration value="4.."/>
+            <xs:enumeration value="#4.."/>
+            <xs:enumeration value="5.."/>
+            <xs:enumeration value="#5.."/>
+            <xs:enumeration value="6.."/>
+            <xs:enumeration value="#6.."/>
+            <xs:enumeration value="7.."/>
+
+            <xs:enumeration value="1."/>
+            <xs:enumeration value="#1."/>
+            <xs:enumeration value="2."/>
+            <xs:enumeration value="#2."/>
+            <xs:enumeration value="3."/>
+            <xs:enumeration value="4."/>
+            <xs:enumeration value="#4."/>
+            <xs:enumeration value="5."/>
+            <xs:enumeration value="#5."/>
+            <xs:enumeration value="6."/>
+            <xs:enumeration value="#6."/>
+            <xs:enumeration value="7."/>
+
+            <xs:enumeration value="1"/>
+            <xs:enumeration value="#1"/>
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="#2"/>
+            <xs:enumeration value="3"/>
+            <xs:enumeration value="4"/>
+            <xs:enumeration value="#4"/>
+            <xs:enumeration value="5"/>
+            <xs:enumeration value="#5"/>
+            <xs:enumeration value="6"/>
+            <xs:enumeration value="#6"/>
+            <xs:enumeration value="7"/>
+
+            <xs:enumeration value="1^"/>
+            <xs:enumeration value="#1^"/>
+            <xs:enumeration value="2^"/>
+            <xs:enumeration value="#2^"/>
+            <xs:enumeration value="3^"/>
+            <xs:enumeration value="4^"/>
+            <xs:enumeration value="#4^"/>
+            <xs:enumeration value="5^"/>
+            <xs:enumeration value="#5^"/>
+            <xs:enumeration value="6^"/>
+            <xs:enumeration value="#6^"/>
+            <xs:enumeration value="7^"/>
+
+            <xs:enumeration value="1^^"/>
+            <xs:enumeration value="#1^^"/>
+            <xs:enumeration value="2^^"/>
+            <xs:enumeration value="#2^^"/>
+            <xs:enumeration value="3^^"/>
+            <xs:enumeration value="4^^"/>
+            <xs:enumeration value="#4^^"/>
+            <xs:enumeration value="5^^"/>
+            <xs:enumeration value="#5^^"/>
+            <xs:enumeration value="6^^"/>
+            <xs:enumeration value="#6^^"/>
+            <xs:enumeration value="7^^"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="musical_tone_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="C2"/>
+            <xs:enumeration value="#C2"/>
+            <xs:enumeration value="D2"/>
+            <xs:enumeration value="#D2"/>
+            <xs:enumeration value="E2"/>
+            <xs:enumeration value="F2"/>
+            <xs:enumeration value="#F2"/>
+            <xs:enumeration value="G2"/>
+            <xs:enumeration value="#G2"/>
+            <xs:enumeration value="A2"/>
+            <xs:enumeration value="#A2"/>
+            <xs:enumeration value="B2"/>
+
+            <xs:enumeration value="C3"/>
+            <xs:enumeration value="#C3"/>
+            <xs:enumeration value="D3"/>
+            <xs:enumeration value="#D3"/>
+            <xs:enumeration value="E3"/>
+            <xs:enumeration value="F3"/>
+            <xs:enumeration value="#F3"/>
+            <xs:enumeration value="G3"/>
+            <xs:enumeration value="#G3"/>
+            <xs:enumeration value="A3"/>
+            <xs:enumeration value="#A3"/>
+            <xs:enumeration value="B3"/>
+
+            <xs:enumeration value="C4"/>
+            <xs:enumeration value="#C4"/>
+            <xs:enumeration value="D4"/>
+            <xs:enumeration value="#D4"/>
+            <xs:enumeration value="E4"/>
+            <xs:enumeration value="F4"/>
+            <xs:enumeration value="#F4"/>
+            <xs:enumeration value="G4"/>
+            <xs:enumeration value="#G4"/>
+            <xs:enumeration value="A4"/>
+            <xs:enumeration value="#A4"/>
+            <xs:enumeration value="B4"/>
+
+            <xs:enumeration value="C5"/>
+            <xs:enumeration value="#C5"/>
+            <xs:enumeration value="D5"/>
+            <xs:enumeration value="#D5"/>
+            <xs:enumeration value="E5"/>
+            <xs:enumeration value="F5"/>
+            <xs:enumeration value="#F5"/>
+            <xs:enumeration value="G5"/>
+            <xs:enumeration value="#G5"/>
+            <xs:enumeration value="A5"/>
+            <xs:enumeration value="#A5"/>
+            <xs:enumeration value="B5"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!--复杂类型的定义-->
+    <xs:complexType name="musical_note_type">
+        <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+                <xs:attribute name="pitch" type="musical_pitch_type" use="required"/>
+                <xs:attribute name="duration" type="xs:decimal" use="required"/>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="musical_part_type">
+        <xs:sequence>
+            <xs:element name="musical_note" type="musical_note_type" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="musical_bar_type">
+        <xs:sequence>
+            <xs:element name="musical_part" type="musical_part_type" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="description" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="musical_score_type">
+        <xs:sequence>
+            <xs:element name="musical_bar" type="musical_bar_type" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="musical_tone" type="musical_tone_type" use="required"/>
+        <xs:attribute name="bar_duration" type="xs:decimal" use="required"/>
+    </xs:complexType>
+    <!--元素的定义-->
+    <xs:element name="musical_score" type="musical_score_type"/>
+</xs:schema>
