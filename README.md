@@ -71,7 +71,11 @@ duration属性是音符的持续时间（注意即使是休止符也有持续时
 
 ### 支持的音域
 
-程序支持的音域为C2到B5。程序的使用者有责任保证xml文件中的每个音均不超过这个范围，否则程序会异常终止。  
+程序支持的音域为C2到B5。程序的使用者有责任保证xml文件中的每个音均不超过这个范围，否则程序会异常终止，除非额外传输一个false命令行参数，形如：  
+
+```
+java -jar TapeGenerator.jar %filepath% %barlen% %bpm% false
+```
 
 比如，如果在lnd:musical_score节点中将调号设置为B5，那么任何lnd:musical_note节点的pitch属性均不能超过中音Do，也就是1。  
 

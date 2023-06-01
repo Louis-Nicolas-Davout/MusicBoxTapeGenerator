@@ -26,10 +26,14 @@ public class Launcher {
 		String filePath = args[0];
 		int lineNumberGap = Integer.parseInt(args[1]);
 		float bpm = Float.parseFloat(args[2]);
+		boolean pitchRangeCheckEnabled = true;
+		if (args.length > 3) {
+			pitchRangeCheckEnabled = Boolean.parseBoolean(args[3]);
+		}
 		try {
 			File file = new File(filePath);
 			MusicalScoreCompiler compiler = new MusicalScoreCompiler(file);
-			int[] a = compiler.compile();
+			int[] a = compiler.compile(pitchRangeCheckEnabled);
 			TapeGenerator generator = new TapeGenerator(a);
 			for (String str : generator.getStrings(lineNumberGap)) {
 				System.out.println(str);

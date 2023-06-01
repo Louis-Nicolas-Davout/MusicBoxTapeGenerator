@@ -103,7 +103,8 @@ public class MusicalScoreCompiler {
 		this.document.normalize();
 	}
 
-	public int[] compile() {
+	public int[] compile(boolean 
+						pitchRangeCheckEnabled) {
 		Pitch tone = this.getTone();
 		double barDuration = this.getBarDuration();
 		NodeList bars = this.document.getElementsByTagName("lnd:musical_bar");
@@ -111,7 +112,8 @@ public class MusicalScoreCompiler {
 		int[] a = new int[barNotesCount];
 		for (int i = 0; i < bars.getLength(); i++) {
 			try {
-				MusicalScoreCompiler.loadBarToIntArray(a, (Element) bars.item(i), tone, i, barDuration);
+				MusicalScoreCompiler.loadBarToIntArray(a, (Element) bars.item(i), tone, i, barDuration,
+						pitchRangeCheckEnabled);
 			} catch (RuntimeException ex) {
 				throw new RuntimeException("处理第" + i + "小节时发生错误", ex);
 			}
@@ -132,19 +134,19 @@ public class MusicalScoreCompiler {
 	}
 
 	private static void loadBarToIntArray(int[] arrayToLoad, Element element, Pitch tone, int currentBar,
-			double barDuration) {
+			double barDuration, boolean pitchRangeCheckEnabled) {
 		List<Element> partNodes = MusicalScoreCompiler.getChildNodesByTagName(element, "lnd:musical_part");
 		for (Element partNode : partNodes) {
-			MusicalScoreCompiler.loadPartToIntArray(arrayToLoad, partNode, tone, currentBar, barDuration);
+			MusicalScoreCompiler.loadPartToIntArray(arrayToLoad, partNode, tone, currentBar, barDuration,pitchRangeCheckEnabled);
 		}
 	}
 
 	private static void loadPartToIntArray(int[] arrayToLoad, Element element, Pitch tone, int currentBar,
-			double barDuration) {
+			double barDuration, boolean pitchRangeCheckEnabled) {
 		List<Element> noteNodes = MusicalScoreCompiler.getChildNodesByTagName(element, "lnd:musical_note");
 		double currentTime = currentBar * barDuration;
 		for (Element noteNode : noteNodes) {
-			MusicalScoreCompiler.Note note = MusicalScoreCompiler.parseNote(noteNode, tone);
+			MusicalScoreCompiler.Note note = MusicalScoreCompiler.parseNote(noteNode, tone, pitchRangeCheckEnabled);
 			int index = (int) Math.round(currentTime * 4);
 			// 显然，如果遇到了休止符，我们不希望它写入任何一个音。
 			Integer maskObj = (note.pitch == null) ? Integer.valueOf(0) : note.pitch.getMask();
@@ -160,7 +162,7 @@ public class MusicalScoreCompiler {
 		}
 	}
 
-	private static MusicalScoreCompiler.Note parseNote(Element element, Pitch tone) {
+	private static MusicalScoreCompiler.Note parseNote(Element element, Pitch tone, boolean pitchRangeCheckEnabled) {
 		String relativePitchString = element.getAttribute("pitch");
 		String durationString = element.getAttribute("duration");
 		double duration = Double.parseDouble(durationString);
@@ -169,11 +171,13 @@ public class MusicalScoreCompiler {
 			return new MusicalScoreCompiler.Note(null, duration);
 		}
 		int relativePitch = MusicalScoreCompiler.relativePitches.get(relativePitchString);
-		Pitch pitch;
+		Pitch pitch = null;
 		try {
 			pitch = MusicalScoreCompiler.pitches[tone.ordinal() + relativePitch];
 		} catch (ArrayIndexOutOfBoundsException ex) {
+			if(pitchRangeCheckEnabled) {
 			throw new RuntimeException("所使用的音不在音域内", ex);
+			}
 		}
 		return new MusicalScoreCompiler.Note(pitch, duration);
 	}
