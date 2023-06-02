@@ -26,7 +26,7 @@
 
 其中只有musical_tone和bar_duration属性可以改动。  
 
-### lnd\:musical_score节点
+### lnd:musical_score节点
 
 文件的根节点是一个lnd:musical_score节点。它的两个属性分别为musical_tone和bar_duration。  
 
@@ -43,15 +43,15 @@ musical_tone只能是以下几个值：
 
 bar_duration是一个小节中四分音符的数目。它只能是0.25的倍数（因为一行代表一个16分音符）  
 
-### lnd:musical_score节点
+### lnd:musical_bar节点
 
 lnd:musical_score节点中包含数个lnd:musical_bar节点，该节点是音乐的一个小节。它有一个必须的属性description，它可以是任何与此小节有关的描述（我的习惯是从零开始的序号）。此程序不会以任何形式使用该属性。  
 
-### lnd:musical_bar节点
+### lnd:musical_part节点
 
 lnd:musical_bar节点中包含数个lnd:musical_part节点，每一个lnd:musical_part节点代表一个独立的声部，同一小节中不同声部的演奏是并行的，而不同的小节则会依序演奏。在同一个文件中，每一个小节的声部数目可以不同。  
 
-### lnd:musical_part节点
+### lnd:musical_note节点
 
 lnd:musical_part节点中包含数个lnd:musical_note节点，该节点代表一个音符，它有pitch和duration两个属性。  
 pitch属性可以是以下值：  
